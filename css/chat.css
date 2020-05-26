@@ -1,0 +1,29 @@
+.chat__write {
+    position: fixed;
+    bottom: 50px;
+    width: 80%;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcfcfc;
+    padding: 20px;
+    border-radius: 40px;
+    /* 수평, 수직, blur(밀도)*/
+    /* RGBA = red, grean, black, opacity */
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+}
+
+.chat__write i {
+    font-size: 22px;
+}
+
+.chat__write input {
+    padding: 10px;
+    width: 100%;
+}
+
+.chat__write-column:nth-child(2) {
+    width: 80%;
+}

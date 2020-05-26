@@ -6,6 +6,9 @@
 @import "friend.css";
 @import "friends.css";
 @import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
 
 /* 전체 선택자 css 기본값을 초기화 하거나 기본값을 지정할때 사용. 모든 코드 페이지를 로딩하는 속성이니 자주 사용하면 당연히 느려짐. 남용하지말것. */
 *{
