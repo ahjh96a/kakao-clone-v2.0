@@ -1,0 +1,46 @@
+.bigScreen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #fce006;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0px 20px;
+    display:none;
+}
+
+@media screen and (min-width: 550px) {
+
+    .bigScreen {
+        display:flex;
+        animation-name: spinnn, fadein;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes spinnn{
+        from {
+            transform: none;
+        }
+        to {
+            transform: rotateY(1turn);
+        }
+    }
+
+    @keyframes fadein{
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+}
